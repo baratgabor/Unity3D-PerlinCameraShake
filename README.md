@@ -2,8 +2,8 @@
 Just a camera shake `MonoBehaviour` script that you can attach to a `Camera` as a component in Unity3D. I guess it can be ideal if you just need camera shake, and would rather not use the full Cinemachine package.
 
 ## Main feature: It's not crappy code
-- It doesn't do any polling.
-- Doesn't keep lerping indefinitely.
+- It doesn't do any polling. If you add 'trauma', it starts a coroutine that processes the trauma, and then exits.
+- Doesn't keep 'lerping' indefinitely.
 - Generally only executes what is strictly necessary for the given settings, e.g.:
   - If  you set only rotational shaking, it won't bother calculating translation.
   - If you only ask for X axis translation, it won't calculate things for the other axes.
@@ -34,3 +34,10 @@ Hopefully none. If you happen to find any, let me know, and I'll fix them.
 ## Copyrights
 
 Do whatever you want. ¯\\\_(ツ)\_/¯ It's just 300 lines of code.
+
+## Sources/inspirations
+
+- The concept of 'trauma' as a 0-1 float, plus the usage of Perlin noise originates from this GDC talk:
+  - [GDC16 - Math for Game Programmers: Juicing Your Cameras With Math](https://www.youtube.com/watch?v=tu-Qe66AvtY)
+- The implementation is partially inspired by this video:
+  - [Unity Camera Shake - A Realistic, Verstile Effect using Perlin Noise](https://www.youtube.com/watch?v=s3FS7AkiEnE)
