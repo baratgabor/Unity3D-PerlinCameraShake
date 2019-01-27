@@ -33,4 +33,4 @@ Hopefully none. If you happen to find any, let me know, and I'll fix them.
 
 ## Copyrights
 
-Do whatever you want. ¯\\_(ツ)_/¯ It's just 300 lines of code.
+Do whatever you want. ¯\\\_(ツ)\_/¯ It's just 300 lines of code.
