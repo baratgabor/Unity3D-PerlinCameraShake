@@ -1,4 +1,4 @@
-# Perlin Camera Shake
+# Perlin Camera Shake for Unity3D
 Just a camera shake script that you can attach to a Camera as a component in Unity3D. I guess it can be ideal if you just need camera shake, and would rather not use the full cinemachine package.
 
 It's not written in a crappy way. It doesn't do any polling, doesn't keep lerping indefinitely, and generally only executes what is strictly necessary for the given settings. The latter means for example that if you set only rotational shaking, it won't bother calculating translation; and if you only ask for X axis translation, it won't calculate things for the other axes. Probably doesn't really matter much overall, but still. ;)
