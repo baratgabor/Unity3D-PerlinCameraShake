@@ -12,7 +12,7 @@ Overall it should be performant. Not that it matters a lot probably, but still. 
 
 ## Prerequisites
 
-- Your `Camera` should be parented to another `GameObject`, and that `GameObject` should be moved, if your game requires a moving camera. But this is how we normally use cameras in Unity.
+- Your `Camera` should be parented to another `GameObject`, and that `GameObject` should be moved, if your game requires a moving camera. But this is how we normally use cameras in Unity. However, the script does support non-zero initial camera positions and rotations.
 
 ## Usage
 - Copy the `.cs` file to your `Assets` folder.
