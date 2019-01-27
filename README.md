@@ -1,7 +1,7 @@
 # Perlin Camera Shake component for Unity3D
-Just a camera shake script that you can attach to a Camera as a component in Unity3D. I guess it can be ideal if you just need camera shake, and would rather not use the full cinemachine package.
+Just a camera shake `MonoBehaviour` script that you can attach to a `Camera` as a component in Unity3D. I guess it can be ideal if you just need camera shake, and would rather not use the full Cinemachine package.
 
-## Main Feature: It's not crappy code
+## Main feature: It's not crappy code
 - It doesn't do any polling.
 - Doesn't keep lerping indefinitely.
 - Generally only executes what is strictly necessary for the given settings, e.g.:
@@ -9,6 +9,10 @@ Just a camera shake script that you can attach to a Camera as a component in Uni
   - If you only ask for X axis translation, it won't calculate things for the other axes.
   
 Overall it should be performant. Not that it matters a lot probably, but still. ;)
+
+## Prerequisites
+
+- Your `Camera` should be parented to another `GameObject`, and that `GameObject` should be moved, if your game requires a moving camera. But this is how we normally use cameras in Unity.
 
 ## Usage
 - Copy the `.cs` file to your `Assets` folder.
@@ -23,7 +27,6 @@ You can customize the following parameters of the Perlin noise based camera shak
 
 ![Editor customization options of the Perlin Camera Shake component](https://github.com/baratgabor/PerlinCameraShake/blob/master/PerlinCameraShake_editor.png)
 
+## Bugs
 
-## Note
-
-If you happen to find any bugs, let me know, and I'll fix them.
+Hopefully none. If you happen to find any, let me know, and I'll fix them.
