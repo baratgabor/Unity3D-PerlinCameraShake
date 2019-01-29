@@ -105,11 +105,13 @@ public class PerlinCamShake : MonoBehaviour
     private const float ROTATION_Y_SEED = 500;
     private const float ROTATION_Z_SEED = 600;
 
+#if UNITY_EDITOR 
     private void OnValidate()
     {
         if (GUI.changed && EditorApplication.isPlaying && _trauma > 0)
             OnNewTrauma(_trauma);
     }
+#endif
 
     private void Start()
     {
