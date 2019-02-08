@@ -25,7 +25,7 @@ Obviously, you'll need to add 'trauma' during runtime to initiate the camera sha
 
 You can customize the following parameters of the Perlin noise based camera shake in the Inspector:
 
-![Editor customization options of the Perlin Camera Shake component](https://github.com/baratgabor/PerlinCameraShake/blob/master/PerlinCameraShake_editor.png)
+![Editor customization options of the Perlin Camera Shake component](PerlinCameraShake_editor.png)
 
 ## Bugs
 
