@@ -36,7 +36,7 @@ You can customize the following parameters of the Perlin noise based camera shak
 
 Hopefully none. If you happen to find any, let me know, and I'll fix them.
 
-## Copyrights
+## Licence
 
 Do whatever you want. ¯\\\_(ツ)\_/¯ It's just 300 lines of code.
 
