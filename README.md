@@ -1,7 +1,10 @@
 # Perlin Camera Shake component for Unity3D
-#### Version information: Tested in Unity 2018.3, requires scripting runtime set to '.Net 4.x equivalent' (uses C# 7 features)
 
 Just a camera shake `MonoBehaviour` script that you can attach to a `Camera` as a component in Unity3D. I guess it can be ideal if you just need camera shake, and would rather not use the full Cinemachine package.
+
+----
+#### Version information: Tested in Unity 2018.3, requires scripting runtime set to '.Net 4.x equivalent' (uses C# 7 features)
+----
 
 ## Main feature: It's not crappy code
 - It doesn't do any polling. If you add 'trauma', it starts a coroutine that processes the trauma, and then exits.
