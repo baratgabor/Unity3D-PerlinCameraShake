@@ -7,7 +7,7 @@ using UnityEngine;
 /// Supports any initial camera position and rotation, but camera should be steady, i.e. parented to another GameObject.
 /// </summary>
 [RequireComponent(typeof(Camera))]
-public class PerlinCamShake : MonoBehaviour
+public class PerlinCameraShake : MonoBehaviour
 {
     //[SerializeField]
     //private FloatGameEvent _playerTrauma;
