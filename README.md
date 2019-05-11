@@ -38,7 +38,7 @@ Hopefully none. If you happen to find any, let me know, and I'll fix them.
 
 ## Licence
 
-Do whatever you want. ¯\\\_(ツ)\_/¯ It's just 300 lines of code.
+It appears that some people are using this component, so I added an explicit MIT licence for your peace of mind.
 
 ## Sources/inspirations
 
